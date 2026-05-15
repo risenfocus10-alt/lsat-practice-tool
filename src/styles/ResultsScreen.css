@@ -1,0 +1,42 @@
+.breakdown-tables {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.breakdown-table-wrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .breakdown-tables {
+    flex-direction: column;
+  }
+}
+
+.breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.breakdown-table th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 2px solid #e0e0e0;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.breakdown-table td {
+  padding: 8px;
+}
+
+.breakdown-table tbody tr:nth-child(odd) td {
+  background-color: #f9f9f9;
+}
+
+.breakdown-table tbody tr:nth-child(even) td {
+  background-color: #ffffff;
+}

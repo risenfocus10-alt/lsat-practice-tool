@@ -1,0 +1,4 @@
+/* Hover only applies to unselected rows — inline backgroundColor on selected rows wins via specificity */
+.answer-choice:hover {
+  background-color: #f8f8f8;
+}

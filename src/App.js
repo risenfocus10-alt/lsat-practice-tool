@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import useExamSession from './hooks/useExamSession';
+import HomeScreen from './components/HomeScreen';
+import GeneratingScreen from './components/GeneratingScreen';
+import ExamScreen from './components/ExamScreen';
+import ResultsScreen from './components/ResultsScreen';
 
-function App() {
+export default function App() {
+  const session = useExamSession();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app-root">
+      {session.phase === 'home' && (
+        <HomeScreen startExam={session.startExam} />
+      )}
+      {session.phase === 'generating' && (
+        <GeneratingScreen
+          questions={session.questions}
+          generationProgress={session.generationProgress}
+          error={session.error}
+          retryQuestion={session.retryQuestion}
+        />
+      )}
+      {session.phase === 'exam' && (
+        <ExamScreen
+          questions={session.questions}
+          userAnswers={session.userAnswers}
+          selectAnswer={session.selectAnswer}
+          submitExam={session.submitExam}
+        />
+      )}
+      {session.phase === 'results' && (
+        <ResultsScreen
+          sessionResults={session.sessionResults}
+          questions={session.questions}
+          userAnswers={session.userAnswers}
+          startNewSection={session.startNewSection}
+        />
+      )}
     </div>
   );
 }
-
-export default App;
