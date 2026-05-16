@@ -149,7 +149,6 @@ ANTICIPATION:
 
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
-process.env.DATABASE_URL = process.env.DATABASE_URL || process.env.POSTGRES_URL;
 
 const lsatExamples = require('../src/utils/lsatExamples');
 
