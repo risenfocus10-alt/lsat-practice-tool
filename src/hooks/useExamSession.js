@@ -113,10 +113,20 @@ export default function useExamSession() {
 
     const plan = generateQuestionPlan();
 
-    for (const planItem of plan) {
-      const success = await streamQuestion(planItem, false, setQuestions, setError);
-      if (!success) return; // error state was set inside streamQuestion
-      setGenerationProgress(planItem.questionNumber);
+    // Split plan into batches of 3 and run each batch in parallel
+    for (let i = 0; i < plan.length; i += 3) {
+      const batch = plan.slice(i, i + 3);
+
+      const results = await Promise.all(
+        batch.map(planItem =>
+          streamQuestion(planItem, false, setQuestions, setError).then(success => {
+            if (success) setGenerationProgress(planItem.questionNumber);
+            return success;
+          })
+        )
+      );
+
+      if (results.includes(false)) return; // error state was set inside streamQuestion
     }
 
     setPhase('exam');
