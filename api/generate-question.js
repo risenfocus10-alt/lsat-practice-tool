@@ -168,7 +168,7 @@ module.exports = async function handler(req, res) {
 
   const examples = lsatExamples[questionType];
   const systemPrompt = examples && examples.length > 0
-    ? SYSTEM_PROMPT + '\n\nHere is an example of a real LSAT question of this type to guide your formatting and style. Do not reproduce this question — use it only as a model:\n\n' + examples[Math.floor(Math.random() * examples.length)]
+    ? SYSTEM_PROMPT + '\n\nHere is one real LSAT question of this type. Study its structure, reasoning pattern, argument length, and answer choice style. Your question must be completely original — different stimulus, different argument, different conclusion, different answer choices, different correct answer. Do not reuse the topic, scenario, or any specific facts from this example. Structural similarity in reasoning pattern is acceptable; content similarity is not.\n\n' + examples[Math.floor(Math.random() * examples.length)]
     : SYSTEM_PROMPT;
 
   try {
