@@ -147,6 +147,9 @@ SUMMARY:
 ANTICIPATION:
 [A paragraph explaining what a skilled test-taker should have noticed or predicted before looking at the answer choices. Describe the logical gap, flaw, or key inference that points toward the correct answer.]`;
 
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
+
 const lsatExamples = require('../src/utils/lsatExamples');
 
 module.exports = async function handler(req, res) {
@@ -166,10 +169,21 @@ module.exports = async function handler(req, res) {
 
   const userMessage = `Generate question ${questionNumber} of 26.\nType: ${questionType}\nDifficulty: ${difficulty}\nDomain: ${domain}`;
 
+  const recentQuestions = await prisma.generatedQuestion.findMany({
+    where: { questionType },
+    orderBy: { createdAt: 'desc' },
+    take: 20,
+  });
+
   const examples = lsatExamples[questionType];
-  const systemPrompt = examples && examples.length > 0
+  let systemPrompt = examples && examples.length > 0
     ? SYSTEM_PROMPT + '\n\nHere is one real LSAT question of this type. Study its structure, reasoning pattern, argument length, and answer choice style. Your question must be completely original — different stimulus, different argument, different conclusion, different answer choices, different correct answer. Do not reuse the topic, scenario, or any specific facts from this example. Structural similarity in reasoning pattern is acceptable; content similarity is not.\n\n' + examples[Math.floor(Math.random() * examples.length)]
     : SYSTEM_PROMPT;
+
+  if (recentQuestions.length > 0) {
+    systemPrompt += '\n\nRecently generated questions of this type covered these topics and domains — do not repeat them:\n' +
+      recentQuestions.map(q => `- ${q.domain}: ${q.topicSummary}`).join('\n');
+  }
 
   try {
     const anthropicResponse = await fetch('https://api.anthropic.com/v1/messages', {
@@ -200,14 +214,41 @@ module.exports = async function handler(req, res) {
 
     const reader = anthropicResponse.body.getReader();
     const decoder = new TextDecoder();
+    let rawText = '';
 
     while (true) {
       const { done, value } = await reader.read();
       if (done) break;
-      res.write(decoder.decode(value));
+      const chunk = decoder.decode(value);
+      rawText += chunk;
+      res.write(chunk);
     }
 
     res.end();
+
+    prisma.generatedQuestion.create({
+      data: {
+        questionType,
+        domain,
+        topicSummary: (() => {
+          let text = '';
+          for (const line of rawText.split('\n')) {
+            if (!line.startsWith('data:')) continue;
+            const data = line.slice(5).trim();
+            if (data === '[DONE]') continue;
+            try {
+              const event = JSON.parse(data);
+              if (event.type === 'content_block_delta' && event.delta?.type === 'text_delta') {
+                text += event.delta.text;
+              }
+            } catch (_) {}
+          }
+          const firstMeaningfulLine = text.split('\n').find(l => l.trim().length > 30);
+          return firstMeaningfulLine ? firstMeaningfulLine.slice(0, 200) : domain;
+        })(),
+        flawType: null,
+      },
+    }).catch(err => console.error('DB save error:', err));
   } catch (error) {
     return res.status(500).json({ error: error.message });
   }
