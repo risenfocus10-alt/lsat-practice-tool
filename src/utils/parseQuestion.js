@@ -42,5 +42,19 @@ export default function parseQuestionResponse(rawText) {
     stimulus = paragraphs.join('\n\n');
   }
 
-  return { questionNumber, type, difficulty, domain, stimulus, stem, choices, correctAnswer, explanation };
+  const summaryStart = text.indexOf('SUMMARY:');
+  const anticipationStart = text.indexOf('ANTICIPATION:');
+
+  const summary = summaryStart !== -1
+    ? text.slice(
+        summaryStart + 'SUMMARY:'.length,
+        anticipationStart !== -1 ? anticipationStart : undefined
+      ).trim()
+    : '';
+
+  const anticipation = anticipationStart !== -1
+    ? text.slice(anticipationStart + 'ANTICIPATION:'.length).trim()
+    : '';
+
+  return { questionNumber, type, difficulty, domain, stimulus, stem, choices, correctAnswer, explanation, summary, anticipation };
 }

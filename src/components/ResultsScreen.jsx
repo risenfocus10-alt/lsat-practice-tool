@@ -106,6 +106,22 @@ function ReviewCard({ question, answerData }) {
           </div>
         ))}
       </div>
+
+      {/* Summary */}
+      {question.summary && (
+        <div style={styles.summarySection}>
+          <p style={styles.insightTitle}>Summary</p>
+          <p style={styles.insightText}>{question.summary}</p>
+        </div>
+      )}
+
+      {/* Anticipation */}
+      {question.anticipation && (
+        <div style={styles.anticipationSection}>
+          <p style={styles.insightTitle}>Anticipation</p>
+          <p style={styles.insightText}>{question.anticipation}</p>
+        </div>
+      )}
     </div>
   );
 }
@@ -375,5 +391,30 @@ const styles = {
     paddingLeft: '8px',
     fontWeight: '600',
     color: '#1a1a1a',
+  },
+  summarySection: {
+    backgroundColor: '#f9f9f9',
+    padding: '16px',
+    borderRadius: '6px',
+    marginTop: '12px',
+  },
+  anticipationSection: {
+    backgroundColor: '#f0f4ff',
+    padding: '16px',
+    borderRadius: '6px',
+    marginTop: '12px',
+  },
+  insightTitle: {
+    fontWeight: 'bold',
+    fontSize: '0.85rem',
+    color: '#1a1a1a',
+    textTransform: 'uppercase',
+    letterSpacing: '0.04em',
+    marginBottom: '8px',
+  },
+  insightText: {
+    fontSize: '0.9rem',
+    lineHeight: '1.6',
+    color: '#333333',
   },
 };

@@ -139,7 +139,13 @@ EXPLANATION:
 - Wrong (C): [Why this answer fails]
 - Wrong (D): [Why this answer fails]
 - Wrong (E): [Why this answer fails]
-(skip the correct answer letter in the Wrong lines)`;
+(skip the correct answer letter in the Wrong lines)
+
+SUMMARY:
+[A short informal paragraph restating the stimulus in simple, everyday language. Reduce the argument to its essential idea without technical language.]
+
+ANTICIPATION:
+[A paragraph explaining what a skilled test-taker should have noticed or predicted before looking at the answer choices. Describe the logical gap, flaw, or key inference that points toward the correct answer.]`;
 
 module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
