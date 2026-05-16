@@ -686,4 +686,4 @@ Follow the chain of conditionals to its logical end: if the book is not found, t
 
 };
 
-export default lsatExamples;
+module.exports = lsatExamples;

@@ -147,6 +147,8 @@ SUMMARY:
 ANTICIPATION:
 [A paragraph explaining what a skilled test-taker should have noticed or predicted before looking at the answer choices. Describe the logical gap, flaw, or key inference that points toward the correct answer.]`;
 
+const lsatExamples = require('../src/utils/lsatExamples');
+
 module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
@@ -164,6 +166,11 @@ module.exports = async function handler(req, res) {
 
   const userMessage = `Generate question ${questionNumber} of 26.\nType: ${questionType}\nDifficulty: ${difficulty}\nDomain: ${domain}`;
 
+  const examples = lsatExamples[questionType];
+  const systemPrompt = examples && examples.length > 0
+    ? SYSTEM_PROMPT + '\n\nHere is an example of a real LSAT question of this type to guide your formatting and style. Do not reproduce this question — use it only as a model:\n\n' + examples[Math.floor(Math.random() * examples.length)]
+    : SYSTEM_PROMPT;
+
   try {
     const anthropicResponse = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -176,7 +183,7 @@ module.exports = async function handler(req, res) {
         model: 'claude-sonnet-4-5',
         max_tokens: 2000,
         stream: true,
-        system: SYSTEM_PROMPT,
+        system: systemPrompt,
         messages: [{ role: 'user', content: userMessage }],
       }),
     });
