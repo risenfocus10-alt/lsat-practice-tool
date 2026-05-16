@@ -148,7 +148,13 @@ ANTICIPATION:
 [A paragraph explaining what a skilled test-taker should have noticed or predicted before looking at the answer choices. Describe the logical gap, flaw, or key inference that points toward the correct answer.]`;
 
 const { PrismaClient } = require('@prisma/client');
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({
+  datasources: {
+    db: {
+      url: process.env.POSTGRES_URL || process.env.DATABASE_URL,
+    },
+  },
+});
 
 const lsatExamples = require('../src/utils/lsatExamples');
 
