@@ -114,17 +114,31 @@ STIMULUS WRITING RULES
 - Present tense, neutral academic register
 - Conclusion need not be the last sentence
 
+GENERATION ORDER — follow this sequence strictly:
+1. Identify the specific logical gap, flaw subtype, or inference pattern you will use
+2. Design the wrong answer traps against that gap — each trap must exploit a distinct reasoning error
+3. Write the stimulus to instantiate the gap — the gap should be present but non-obvious
+4. Write the question stem
+5. Write the answer choices according to the traps you designed in step 2
+6. Verify: does negating the correct answer destroy the argument or inference? If not, redesign.
+7. Write the explanation, summary, and anticipation
+
 OUTPUT FORMAT — respond in this exact structure and no other:
+LOGICAL SKELETON:
+- Gap type: [the specific logical gap, flaw subtype, or inference pattern]
+- Mechanism: [one sentence describing exactly how the reasoning error or inference works]
+- Wrong answer traps: (A) [specific cognitive bias or error this choice exploits] (B) [trap] (C) [trap] (D) [trap] (E) [trap]
+
 QUESTION [NUMBER]
 Type: [Question Type]
 Difficulty: [Easy / Medium / Hard]
 Domain: [Subject Domain]
 
-[Stimulus]
+[Stimulus — written AFTER the skeleton is committed, designed to make the gap invisible but recoverable]
 
 [Question Stem]
 
-(A) [Answer choice]
+(A) [Answer choice engineered against the trap described in the skeleton]
 (B) [Answer choice]
 (C) [Answer choice]
 (D) [Answer choice]
@@ -133,8 +147,8 @@ Domain: [Subject Domain]
 CORRECT ANSWER: [Letter]
 
 EXPLANATION:
-- Correct ([Letter]): [Why this answer is right]
-- Wrong (A): [Why this answer fails]
+- Correct ([Letter]): [Why this answer closes the gap identified in the skeleton]
+- Wrong (A): [Why this exploits the trap described — be specific about the reasoning error]
 - Wrong (B): [Why this answer fails]
 - Wrong (C): [Why this answer fails]
 - Wrong (D): [Why this answer fails]
@@ -145,7 +159,7 @@ SUMMARY:
 [A short informal paragraph restating the stimulus in simple, everyday language. Reduce the argument to its essential idea without technical language.]
 
 ANTICIPATION:
-[A paragraph explaining what a skilled test-taker should have noticed or predicted before looking at the answer choices. Describe the logical gap, flaw, or key inference that points toward the correct answer.]`;
+[What a skilled test-taker would identify as the logical gap before looking at answer choices — should match the skeleton's mechanism]`;
 
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();

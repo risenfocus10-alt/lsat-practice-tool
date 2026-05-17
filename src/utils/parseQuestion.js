@@ -42,6 +42,15 @@ export default function parseQuestionResponse(rawText) {
     stimulus = paragraphs.join('\n\n');
   }
 
+  const skeletonStart = text.indexOf('LOGICAL SKELETON:');
+  const questionHeaderMatch = text.match(/^QUESTION\s+\S+/m);
+  const logicalSkeleton = skeletonStart !== -1 && questionHeaderMatch
+    ? text.slice(
+        skeletonStart + 'LOGICAL SKELETON:'.length,
+        text.indexOf(questionHeaderMatch[0], skeletonStart)
+      ).trim()
+    : '';
+
   const summaryStart = text.indexOf('SUMMARY:');
   const anticipationStart = text.indexOf('ANTICIPATION:');
 
@@ -56,5 +65,5 @@ export default function parseQuestionResponse(rawText) {
     ? text.slice(anticipationStart + 'ANTICIPATION:'.length).trim()
     : '';
 
-  return { questionNumber, type, difficulty, domain, stimulus, stem, choices, correctAnswer, explanation, summary, anticipation };
+  return { questionNumber, type, difficulty, domain, stimulus, stem, choices, correctAnswer, explanation, summary, anticipation, logicalSkeleton };
 }
