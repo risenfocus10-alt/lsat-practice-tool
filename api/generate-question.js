@@ -218,6 +218,7 @@ module.exports = async function handler(req, res) {
 
     if (!anthropicResponse.ok) {
       const errorData = await anthropicResponse.json().catch(() => ({}));
+      console.error('Anthropic 400 error:', JSON.stringify(errorData));
       return res.status(502).json({
         error: 'Upstream API error',
         detail: errorData.error?.message || 'Unknown error',
