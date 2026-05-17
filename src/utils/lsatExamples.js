@@ -93,7 +93,97 @@ SUMMARY:
 Farmers used to plant alfalfa to replenish the soil. They stopped because chemical fertilizers came along. Now the soil is depleted. The author concludes they must stop using fertilizers to fix the soil — assuming they cannot do both.
 
 ANTICIPATION:
-The conclusion says farmers must abandon fertilizers. But the premises only say that fertilizers caused farmers to stop using green-manure crops. Could they not just start doing both? The argument assumes they cannot — that using fertilizers means they will never plant green-manure crops. That exclusivity is the necessary assumption.`
+The conclusion says farmers must abandon fertilizers. But the premises only say that fertilizers caused farmers to stop using green-manure crops. Could they not just start doing both? The argument assumes they cannot — that using fertilizers means they will never plant green-manure crops. That exclusivity is the necessary assumption.`,
+
+    `QUESTION B13
+Type: Necessary Assumption
+Difficulty: Medium
+Domain: Technology and its social effects
+
+In early 2003, scientists detected methane in the atmosphere of Mars. Methane is a fragile compound that falls apart when hit by the ultraviolet radiation in sunlight. So any methane in the Martian atmosphere must have been released into the atmosphere relatively recently.
+
+The argument relies on the assumption that
+
+(A) Mars had no methane in its atmosphere prior to 2003.
+(B) all methane in the Martian atmosphere is eventually exposed to sunlight.
+(C) methane cannot be detected until it has started to fall apart.
+(D) the methane that the scientists detected had been exposed to ultraviolet radiation.
+(E) methane in Earth's atmosphere does not fall apart as a result of exposure to ultraviolet radiation.
+
+CORRECT ANSWER: B
+
+EXPLANATION:
+- Correct (B): If the methane weren't exposed to sunlight, it could float around forever without breaking down. The argument requires that methane in the Martian atmosphere eventually gets exposed to the sun.
+- Wrong (A): They discovered methane in 2003, but that doesn't mean there was none before. Older methane could have existed and already broken down.
+- Wrong (C): They might have just found intact methane. They don't have to detect it mid-breakdown.
+- Wrong (D): If it had already been exposed to ultraviolet radiation, it would have broken down. The argument doesn't require the detected methane to have already been exposed — just that it will be eventually.
+- Wrong (E): We don't need to assume anything about Earth. Whether or not methane breaks down here doesn't affect the argument about Mars.
+
+SUMMARY:
+There's methane in the Martian atmosphere. Methane breaks down when exposed to ultraviolet radiation from sunlight. So the methane on Mars must not have been there for long.
+
+ANTICIPATION:
+The big assumption here is that methane in the Martian atmosphere would be exposed to ultraviolet radiation from sunlight. If it weren't, it could just persist forever up there, and the argument would fall apart.`,
+
+    `QUESTION B19
+Type: Necessary Assumption
+Difficulty: Hard
+Domain: Psychology and behavior
+
+Young people believe efforts to reduce pollution, poverty, and war are doomed to failure. This pessimism is probably harmful to humanity's future, because people lose motivation to work for goals they think are unrealizable. We must do what we can to prevent this loss of motivation and therefore must enable our children to believe that better futures are possible.
+
+Which one of the following is an assumption on which the argument depends?
+
+(A) Motivating people to work to solve humanity's problems will enable them to believe that the future can be better and will cause them to be less pessimistic.
+(B) Enabling people to believe that better futures are possible will help prevent the loss of motivation that results from pessimistic beliefs about the future.
+(C) Optimism about the future is better than pessimism, even if that optimism is based on an illusory vision of what is likely to occur.
+(D) If future generations believe that the future can be better, then pollution, poverty, and war will be eliminated.
+(E) The current prevalence of such problems as pollution and poverty stems from previous generations' inability to believe that futures can be better.
+
+CORRECT ANSWER: B
+
+EXPLANATION:
+- Correct (B): This is the answer. If helping people believe the future can be better didn't increase their motivation, the recommendation would fall apart. Negate it: if enabling people to believe in better futures won't prevent the loss of motivation — then why are we trying to do that?
+- Wrong (A): This gets it backwards. The idea in the stimulus is to make people believe the future can be better so they're more motivated, not the other way around.
+- Wrong (C): It's not about optimism in general — it's about motivating people to make change. Optimism being better in general doesn't connect to the argument's recommendation.
+- Wrong (D): Nobody said we're going to fix everything if only we believe. We just need belief to help people work toward a better future.
+- Wrong (E): The argument isn't about what caused the problems in the world. It's about how to address them.
+
+SUMMARY:
+Young people just don't think that things will get better. When people don't think change is possible, they lose the motivation to make change happen, and that's bad. So we need to make our children believe that a better world is possible.
+
+ANTICIPATION:
+The premises say that when people don't believe change is possible, they lose motivation to work for it. But we don't know that it works the other way — that believing change is possible restores motivation. That's the assumption the argument needs.`,
+
+    `QUESTION B26
+Type: Necessary Assumption
+Difficulty: Hard
+Domain: Environmental science / ecology
+
+Farmer: Crops genetically engineered to produce toxins that enable them to resist insect pests do not need to be sprayed with insecticides. Since excessive spraying of insecticides has harmed wildlife populations near croplands, using such genetically engineered crops more widely is likely to help wildlife populations to recover.
+
+Which one of the following is an assumption the farmer's argument requires?
+
+(A) Use of the crops that have been genetically engineered to resist insect pests in place of crops that have been sprayed with insecticides will cause less harm to wildlife populations.
+(B) Wildlife populations that have been harmed by the excessive spraying of insecticides on croplands are likely to recover if the amount of insecticides sprayed on those croplands is reduced even slightly.
+(C) Crops that have been genetically engineered to resist insect pests are never sprayed with insecticides that harm wildlife populations.
+(D) Use of crops that have been genetically engineered to resist insect pests is no more costly to farmers than the use of insecticides on crops that are not genetically engineered.
+(E) If a wider use of certain crops that have been genetically engineered to resist insect pests is likely to help at least some wildlife populations to recover, it is likely to have that effect only because its use will prevent excessive and ineffective spraying of insecticides on croplands.
+
+CORRECT ANSWER: A
+
+EXPLANATION:
+- Correct (A): This is the answer. If genetically engineered crops are going to help wildlife, they need to cause less harm to wildlife than the spraying they replace. The crops produce their own toxins — what if those toxins hurt wildlife too? The argument needs to assume they don't, or at least that they're less harmful.
+- Wrong (B): The genetically engineered crops eliminate spraying entirely, not just reduce it. An assumption about slight reductions is too weak and too specific to be necessary.
+- Wrong (C): We already know the crops don't need to be sprayed. If one farmer sprayed anyway, that wouldn't ruin the whole argument. "Never" is too strong.
+- Wrong (D): Cost to farmers is totally irrelevant to whether the crops would help wildlife recover.
+- Wrong (E): This starts with the conclusion as a condition and then restricts the mechanism. If the crops helped wildlife in other ways too, that wouldn't hurt the argument at all.
+
+SUMMARY:
+Spraying insecticide on crops has hurt wildlife. Genetically engineered crops don't need to be sprayed. So using those crops will help wildlife recover.
+
+ANTICIPATION:
+The genetically engineered crops don't need insecticide, but they produce their own toxins. The big assumption is that those built-in toxins don't harm wildlife as much as the spraying would. Expect the answer to say the engineered crops cause less harm to wildlife than the spraying they replace.`
   ],
 
   "Unexpected Result": [
@@ -155,7 +245,67 @@ SUMMARY:
 Concertgoers hate their concert hall and want better seats and acoustics. They were told the hall can't be renovated to provide those things. Yet most of them opposed tearing the hall down to build a better one. That seems contradictory.
 
 ANTICIPATION:
-Why would someone want a better concert hall but oppose building one? There must be something that makes tearing down the existing one unnecessary or undesirable — perhaps another plan already in place, or some attachment to the existing building.`
+Why would someone want a better concert hall but oppose building one? There must be something that makes tearing down the existing one unnecessary or undesirable — perhaps another plan already in place, or some attachment to the existing building.`,
+
+    `QUESTION B15
+Type: Unexpected Result
+Difficulty: Easy
+Domain: Biology / medicine
+
+Hine's emerald dragonflies are an endangered species that live in wetlands. The larvae of these dragonflies can survive only in the water, where they are subject to predation by several species including red devil crayfish. Surprisingly, the dragonfly populations are more likely to remain healthy in areas where red devil crayfish are present than in areas without red devil crayfish.
+
+Which one of the following, if true, most helps to explain the surprising fact?
+
+(A) Red devil crayfish dig chambers that remain filled with water even when the surrounding wetlands dry up.
+(B) Red devil crayfish present no threat to adult Hine's emerald dragonflies.
+(C) The varied diet of the red devil crayfish does not include any animal species that prey on dragonfly larvae.
+(D) Red devil crayfish are found in many more locations than Hine's emerald dragonflies are.
+(E) Populations of red devil crayfish in a wetland do not drop significantly if the local population of Hine's emerald dragonflies dies out.
+
+CORRECT ANSWER: A
+
+EXPLANATION:
+- Correct (A): This helps explain why the crayfish help the dragonflies. They dig pools that stay full of water even when wetlands dry up — where otherwise the dragonfly larvae would be wiped out. That explains how they could help despite eating some larvae.
+- Wrong (B): We know they eat the babies. It doesn't matter whether they also eat adults. If they ate all the babies, there wouldn't be any adults.
+- Wrong (C): If they ate the dragonfly larvae's other predators, that might help. But if they don't, we're stuck in the same place.
+- Wrong (D): The crayfish being more common than the dragonflies doesn't explain why dragonflies do better where crayfish are present.
+- Wrong (E): We're trying to explain why dragonflies do better where there are crayfish. What happens when dragonflies die out isn't the issue.
+
+SUMMARY:
+Some dragonflies live in the swamps. The babies can only live in water, where they often get eaten — including by the bad-ass sounding red devil crayfish. But oddly, dragonfly populations do better where there are red devil crayfish than where there aren't any.
+
+ANTICIPATION:
+We're looking to explain why dragonfly populations are stronger in areas with red devil crayfish, even though the crayfish eat the larvae. Maybe the crayfish do something that helps the dragonflies overall, despite eating some of them.`,
+
+    `QUESTION B22
+Type: Unexpected Result
+Difficulty: Hard
+Domain: Economics and public policy
+
+Advertising tends to have a greater influence on consumer preferences regarding brands of yogurt than it does on consumer preferences regarding brands of milk. Yet, since the LargeCo supermarket chain began advertising its store-brand products, sales of its store-brand milk increased more than sales of its store-brand yogurt.
+
+Which one of the following, if true, most helps to resolve the apparent discrepancy described above?
+
+(A) There has recently been increased demand at LargeCo stores for the chain's own brand of yogurt as well as for other brands of yogurt.
+(B) The typical shopper going to LargeCo for the purpose of buying milk does not go with the intention of also buying yogurt.
+(C) Shoppers at LargeCo tend to purchase the chain's own brand of dairy products more frequently than other brands of dairy products.
+(D) Supermarkets throughout the entire nation have experienced a sharp decrease in sales of yogurt recently.
+(E) Consumers tend to purchase store brands of yogurt, but purchase whichever brand of milk is least expensive.
+
+CORRECT ANSWER: D
+
+EXPLANATION:
+- Correct (D): Yogurt sales are down everywhere. That explains why LargeCo's milk sales increased more after the ad campaign. The campaign might have had a big effect on yogurt — it kept sales from falling way down — even if the absolute increase was smaller than milk's.
+- Wrong (A): Everyone's buying yogurt. That doesn't explain why LargeCo's store-brand milk sales took off more than yogurt.
+- Wrong (B): People don't buy milk and yogurt together. Odd, but this doesn't explain why milk sales bucked the general pattern.
+- Wrong (C): They like the store brand. Maybe it's cheap or fresh. But this doesn't explain why milk increased more than yogurt.
+- Wrong (E): Interesting, but we don't know whether their store-brand milk was the least expensive brand. The ad campaign doesn't necessarily affect price.
+
+SUMMARY:
+Advertising usually does more for yogurt sales than milk sales. But LargeCo advertised both and saw their store-brand milk sales go up more than their yogurt sales.
+
+ANTICIPATION:
+LargeCo seems to go against the usual pattern. The answer might identify why LargeCo was an exception, or identify some other factor that pushed milk sales higher relative to yogurt — like yogurt sales being depressed overall.`
   ],
 
   "Flaw": [
@@ -247,7 +397,67 @@ SUMMARY:
 An art historian argues that because older paintings were more two-dimensional, older painters were more skilled. The critic says that two-dimensionality is irrelevant to skill, so the art historian is wrong. But the critic's move from "bad argument" to "false conclusion" is itself a logical error.
 
 ANTICIPATION:
-Showing that an argument is poorly constructed does not prove its conclusion is false. The fifteenth-century painters might or might not have had greater mastery — we simply cannot know from this argument. The critic wrongly treats a failed argument as proof the conclusion is wrong.`
+Showing that an argument is poorly constructed does not prove its conclusion is false. The fifteenth-century painters might or might not have had greater mastery — we simply cannot know from this argument. The critic wrongly treats a failed argument as proof the conclusion is wrong.`,
+
+    `QUESTION B3
+Type: Flaw
+Difficulty: Easy
+Domain: Biology / medicine
+
+Moore: Sunscreen lotions, which are designed to block skin-cancer-causing ultraviolet radiation, do not do so effectively. Many scientific studies have shown that people who have consistently used these lotions develop, on average, as many skin cancers as those who have rarely, if ever, used them.
+
+The reasoning in Moore's argument is most vulnerable to criticism on the grounds that the argument
+
+(A) takes for granted that there are no other possible health benefits of using sunscreen lotions other than blocking skin-cancer-causing ultraviolet radiation.
+(B) fails to distinguish between the relative number of cases of skin cancer and the severity of those cases in measuring effectiveness at skin cancer prevention.
+(C) fails to consider the effectiveness of sunscreen lotions that are not specifically designed to block skin-cancer-causing ultraviolet radiation.
+(D) relies on evidence regarding the probability of people in different groups developing cancer that, in principle, would be impossible to challenge.
+(E) overlooks the possibility that people who consistently use sunscreen lotions spend more time in the sun, on average, than people who do not.
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): This is the winner. If people who use lots of sunscreen are people who spend all day in the sun, that explains why they get lots of skin cancer despite the sunscreen. They'd probably get even more skin cancer without it.
+- Wrong (A): The conclusion is only about sunscreen's effectiveness at preventing skin cancer. Other benefits are irrelevant.
+- Wrong (B): Severity might be relevant, but we know people who use lots of sunscreen get just as much skin cancer as people who never use it. Severity can't explain that away.
+- Wrong (C): The argument is only about normal sunscreen that's intended to protect you from the sun.
+- Wrong (D): The premises might be true. The issue isn't whether the evidence is challengeable, it's whether the conclusion follows.
+
+SUMMARY:
+People who slather on buckets of sunscreen get just as much skin cancer as people who don't. So sunscreen doesn't actually prevent skin cancer.
+
+ANTICIPATION:
+This evidence sounds damning. But consider who's more likely to use lots of sunscreen. Maybe they're people with really pale skin who spend all day outside. They might get tons more cancer without sunscreen. Expect the answer to say the argument ignores an alternative explanation for why heavy sunscreen users get lots of skin cancer.`,
+
+    `QUESTION B25
+Type: Flaw
+Difficulty: Hard
+Domain: Psychology and behavior
+
+Roberta is irritable only when she is tired, and loses things only when she is tired. Since she has been yawning all day, and has just lost her keys, she is almost certainly irritable.
+
+The reasoning above is flawed in that it
+
+(A) infers from a correlation between tiredness and yawning that tiredness causes yawning.
+(B) assumes the conclusion that it sets out to prove.
+(C) generalizes on the basis of a single instance.
+(D) takes a necessary condition for Roberta's losing things to be a sufficient condition.
+(E) takes a necessary condition for Roberta's being irritable to be a sufficient condition.
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): This is the answer. Being tired is necessary for Roberta to be irritable. The argument thinks that since she's tired, she must be irritable. That's the converse fallacy — it treats a necessary condition as if it were sufficient.
+- Wrong (A): The conclusion doesn't say anything about causation. The yawning bit is pretty irrelevant to the argument's logic anyway.
+- Wrong (B): There's nothing circular here. The conclusion would have to appear in the premises for that.
+- Wrong (C): The conclusion is about right now. There's no generalizing going on.
+- Wrong (D): This answer discusses the right kind of flaw, but relates it to the wrong premise. We can validly conclude Roberta is tired from losing her keys.
+
+SUMMARY:
+If Roberta is irritable, she's tired. If she loses things, she's tired. She just lost her keys. So she must be irritable. But that's a big leap.
+
+ANTICIPATION:
+Roberta lost her keys. That means she's tired — that much follows. But being tired doesn't mean she's irritable. Being tired is a necessary condition for irritability, not a sufficient one. The argument commits the converse fallacy.`
   ],
 
   "Apply the Principle": [
@@ -279,7 +489,69 @@ SUMMARY:
 If an outside consultant who has business ties to a company also determines how much the company's executive gets paid, that executive is probably getting too much. We need an answer that matches this pattern exactly.
 
 ANTICIPATION:
-The principle sets up a conditional: biased external consultant involved → executive probably overpaid. Look for an answer that has both elements: an external consultant who determines pay AND that consultant has business interests with the company. Watch out for the inverse — the absence of a biased consultant does not mean the executive is not overpaid.`
+The principle sets up a conditional: biased external consultant involved → executive probably overpaid. Look for an answer that has both elements: an external consultant who determines pay AND that consultant has business interests with the company. Watch out for the inverse — the absence of a biased consultant does not mean the executive is not overpaid.`,
+
+    `QUESTION B2
+Type: Apply the Principle
+Difficulty: Easy
+Domain: Law-adjacent topics
+
+Residents of a coastal community are resisting the efforts of one family to build a large house on the family's land. Although the house would not violate any town codes, the land in question is depicted in a painting by a famous and beloved landscape painter who recently died. Residents argue that the house would alter the pristine landscape and hence damage the community's artistic and historic heritage.
+
+Which one of the following principles, if valid, most helps to justify the reasoning of the residents opposed to building the house?
+
+(A) Every possible effort should be made to preserve historic buildings that are well known and well loved.
+(B) Communities that seek to preserve undeveloped areas of landscape or historic neighborhoods should purchase those properties for the public trust.
+(C) Artists who choose to represent actual landscapes in their paintings have the right to demand that the owners of the land do not significantly alter the landscape.
+(D) The right to build on one's own property is constrained by the artistic and historical interests of the community at large.
+(E) In historic communities, the building and zoning regulations should prohibit construction that obstructs access to historic sites.
+
+CORRECT ANSWER: D
+
+EXPLANATION:
+- Correct (D): This directly says that property rights can be overridden by the community's artistic and historical interests — exactly what the residents are arguing.
+- Wrong (A): There's no historic building in question. They're talking about stopping a new house from being built.
+- Wrong (B): They're not trying to buy the land. They're trying to stop the house from being built.
+- Wrong (C): The artist is dead. Other people are making the demand, and the principle only gives that right to the artist.
+- Wrong (E): The house is fine by the zoning regulations. The residents aren't trying to change the zoning — they're trying to stop the house despite it.
+
+SUMMARY:
+Some famous painter painted a field. The landowners want to build a big house on it. Nearby residents want to stop them, because the house would damage the community's artistic heritage.
+
+ANTICIPATION:
+The residents are trying to stop the house from being built on property they don't own. Expect the answer to say that preserving the area's artistic heritage is a good enough reason to override someone's property rights.`,
+
+    `QUESTION B23
+Type: Apply the Principle
+Difficulty: Hard
+Domain: Philosophy and ethics
+
+Problem: If Shayna congratulates Daniel on his award, she will misrepresent her true feelings. However, if Shayna does not congratulate Daniel, she will hurt his feelings.
+
+Principle: One should never be insincere about one's feelings, except possibly where one believes that the person with whom one is speaking would prefer kindness to honesty.
+
+The principle, if valid, most helps to justify the reasoning in which one of the following arguments concerning the problem?
+
+(A) If Shayna congratulates Daniel, she will avoid hurting his feelings, so she should congratulate him.
+(B) Daniel might prefer for Shayna to congratulate him — even if insincerely — rather than for her to express her true feelings, and so Shayna would be doing nothing wrong in insincerely congratulating Daniel.
+(C) Shayna believes that kindness should be preferred to dishonesty when speaking to others, so she should not tell Daniel her true feelings.
+(D) Daniel's feelings would be hurt if he knew that congratulations from Shayna were insincere, so Shayna should not congratulate him.
+(E) Shayna has no opinion about whether Daniel would prefer kindness to honesty, so she should not congratulate him.
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): Without knowing whether Daniel prefers kindness to honesty, the exception doesn't apply. So the default rule holds: Shayna should not be insincere. She should not congratulate him.
+- Wrong (A): The principle doesn't identify any circumstances in which we can conclude Shayna should hide her true feelings and congratulate Daniel.
+- Wrong (B): The principle only says there's a possible exception — that sometimes it might be okay to misrepresent your feelings. There's no way to conclude Shayna would be doing nothing wrong at all.
+- Wrong (C): The possible exception is about what Daniel feels, not what Shayna feels. Unless we know Daniel prefers kindness to honesty, Shayna should tell it like it is.
+- Wrong (D): Daniel might think Shayna was being sincere if she congratulated him. We need to know whether Daniel values kindness or honesty more, not what he'd feel if he found out she was insincere.
+
+SUMMARY:
+Shayna can't win. If she congratulates Daniel, she's being insincere. If she doesn't, she hurts his feelings. The principle says: be sincere, unless you think the person would prefer kindness over honesty.
+
+ANTICIPATION:
+Insincerity is allowed only as a possible exception when you believe the person prefers kindness to honesty. If Shayna doesn't know or believe that Daniel prefers kindness, the exception doesn't apply and the default rule kicks in — she should not be insincere. Expect the answer to say Shayna doesn't know Daniel's preference.`
   ],
 
   "Strengthener": [
@@ -341,7 +613,37 @@ SUMMARY:
 Sockeyes introduced into a lake split into two populations living in different depths. The two populations are now genetically distinct. Researchers think each adapted to its habitat. We need to strengthen that hypothesis.
 
 ANTICIPATION:
-The hypothesis says habitat adaptation caused the genetic differences. The main alternative explanation would be interbreeding with other genetically distinct fish. An answer that rules out such alternatives would strengthen the hypothesis by eliminating competing explanations.`
+The hypothesis says habitat adaptation caused the genetic differences. The main alternative explanation would be interbreeding with other genetically distinct fish. An answer that rules out such alternatives would strengthen the hypothesis by eliminating competing explanations.`,
+
+    `QUESTION B20
+Type: Strengthener
+Difficulty: Hard
+Domain: Biology / medicine
+
+In a recent study of stroke patients, those who exhibited continuing deterioration of the nerve cells in the brain after the stroke also exhibited the highest levels of the protein glutamate in their blood. Glutamate, which functions within nerve cells as a neurotransmitter, can kill surrounding nerve cells if it leaks from damaged or oxygen-starved nerve cells. Thus glutamate leaking from damaged or oxygen-starved nerve cells is a cause of long-term brain damage resulting from strokes.
+
+Which one of the following, if true, most strengthens the argument?
+
+(A) Any neurotransmitter that leaks from a damaged or oxygen-starved nerve cell will damage surrounding nerve cells.
+(B) Stroke patients exhibit a wide variety of abnormal chemical levels in their blood.
+(C) Glutamate is the only neurotransmitter that leaks from oxygen-starved or physically damaged nerve cells.
+(D) Leakage from damaged or oxygen-starved nerve cells is the only possible source of glutamate in the blood.
+(E) Nerve cells can suffer enough damage to leak glutamate without being destroyed themselves.
+
+CORRECT ANSWER: D
+
+EXPLANATION:
+- Correct (D): The stroke patients with lots of nerve cell deterioration had lots of glutamate in the blood. This answer tells us the extra glutamate could only come from nerve cell leakage. Since we know such leakage can damage other nerve cells, this rules out alternate sources of glutamate and strengthens the causal conclusion.
+- Wrong (A): The conclusion isn't about just any neurotransmitter — it's specifically about glutamate. Knowing other things could be responsible doesn't strengthen the case for glutamate.
+- Wrong (B): Stroke patients are generally chemically messed up. We already know glutamate correlates with nerve cell deterioration. This doesn't help establish causation.
+- Wrong (C): Even if glutamate is the only leaking neurotransmitter, something other than a neurotransmitter might be responsible for the nerve cell damage.
+- Wrong (E): Whether the leaking cells survive doesn't matter. We know the leakage can kill neighboring cells either way.
+
+SUMMARY:
+In stroke patients, those with the most continuing nerve cell deterioration also had the most glutamate in their blood. Glutamate can leak from damaged nerve cells and kill surrounding cells. So that leakage must be causing the long-term brain damage.
+
+ANTICIPATION:
+This argument jumps from a correlation to a causal conclusion. How do we know the glutamate isn't coming from somewhere other than leaking nerve cells? Or that something else is responsible for both the high glutamate and the nerve cell deterioration? Expect the answer to rule out an alternate source of the glutamate.`
   ],
 
   "Parallel Structure": [
@@ -403,7 +705,37 @@ SUMMARY:
 One of two people is most qualified for sheriff. If the most qualified one wins and it is not the first person, it must be the second. We need an answer with the same logical skeleton.
 
 ANTICIPATION:
-The structure is: if not A, then B has property X. Therefore if X wins and not A, then B. The answer must preserve this exact form — one of two people holds a property, and the conclusion correctly identifies which one wins when the property-holder wins but it is not the first candidate.`
+The structure is: if not A, then B has property X. Therefore if X wins and not A, then B. The answer must preserve this exact form — one of two people holds a property, and the conclusion correctly identifies which one wins when the property-holder wins but it is not the first candidate.`,
+
+    `QUESTION B18
+Type: Parallel Structure
+Difficulty: Hard
+Domain: Environmental science / ecology
+
+So far this summer there has been no rain in the valley. But usually a few inches of rain fall there each summer. Since only one week of summer is left, it will probably rain in the valley within the next week.
+
+The flawed pattern of reasoning in the argument above is most similar to that in which one of the following arguments?
+
+(A) Aisha has finished proofreading all but the last two pages of an issue of the journal Periodos and has encountered no errors. However, there are sometimes a few errors in an issue of Periodos. So there may be errors in the pages that Aisha has not yet checked.
+(B) There are generally few errors in an issue of Periodos. Aisha has finished proofreading all but the last two pages and has encountered no errors. Hence, there are probably no errors in the pages she has not yet checked.
+(C) On average, there are a few errors in an issue of Periodos. Aisha has finished proofreading all but the last two pages of an issue but has encountered no errors. So there are probably errors in the pages she has not yet checked.
+(D) Aisha has proofread several issues of Periodos and has encountered no errors. But there are seldom any errors in an issue. So there will probably be no errors in the next issue she proofreads.
+(E) There usually are errors in each issue of Periodos. Since Aisha has finished proofreading the latest issue and has detected no errors, Aisha has probably made a mistake in her proofreading.
+
+CORRECT ANSWER: C
+
+EXPLANATION:
+- Correct (C): This is the answer. There are usually errors, but Aisha hasn't found any yet. So there will probably be errors in the remaining pages. Same flaw and structure as the stimulus — because something normally happens in a given period and hasn't yet, it'll happen in the remaining time.
+- Wrong (A): This is a valid argument. If there are sometimes errors, there's certainly at least a chance that there'll be some in the remaining pages.
+- Wrong (B): This flips it. The stimulus says since there hasn't been rain yet, there will be. This answer says since there haven't been errors yet, there won't be any.
+- Wrong (D): If there are seldom any errors, there probably won't be errors in the next issue regardless of Aisha's past experience. That's valid.
+- Wrong (E): Aisha has finished the whole journal. There's no remaining portion. The flaw in E is different — it blames Aisha rather than predicting future events.
+
+SUMMARY:
+It usually rains a few inches in the valley each summer. It hasn't rained yet this summer and there's only a week left. So it'll probably rain this week.
+
+ANTICIPATION:
+The argument assumes that because something normally happens within a given period, and hasn't happened through most of that period, it'll probably happen in the remaining time. Look for an answer with the same structure: normally X happens, hasn't happened yet, time is running out, so X will probably happen now.`
   ],
 
   "Weakener": [
@@ -465,7 +797,67 @@ SUMMARY:
 A small carved head with an open mouth was found in a Stone Age tomb. It is too small to be a weapon. Since open mouths symbolize speaking, it was probably a speaking staff — a communal object indicating who may speak in an assembly.
 
 ANTICIPATION:
-The argument concludes this was a communal speaking staff. Communal objects and tombs make an odd combination. If communal objects were normally passed down through generations, not buried with anyone, then finding one in a tomb is strange — which would undermine the speaking staff identification.`
+The argument concludes this was a communal speaking staff. Communal objects and tombs make an odd combination. If communal objects were normally passed down through generations, not buried with anyone, then finding one in a tomb is strange — which would undermine the speaking staff identification.`,
+
+    `QUESTION B1
+Type: Weakener
+Difficulty: Easy
+Domain: Biology / medicine
+
+In an experiment, ten people were asked to taste samples of coffee and rank them. Five of the people were given chocolate with the coffee, and this group subsequently reported that all the coffee samples tasted pretty much the same as one another. Five others tasted coffee only, and they were able to detect differences. Clearly, then, chocolate interferes with one's ability to taste coffee.
+
+Which one of the following, if true, most undermines the conclusion drawn above?
+
+(A) The ten people were randomly assigned to either group, although some people had asked to be in the group that received chocolate.
+(B) Similar results were achieved when the experiment was repeated with a different, larger group of people.
+(C) Chocolate is normally consumed as a solid, whereas coffee is normally consumed as a liquid.
+(D) The five people who were originally given chocolate were asked a week later to taste coffee samples without chocolate, and they still detected no differences between the coffee samples.
+(E) Some subjects who tasted just coffee reported only subtle differences between the coffee samples, while others thought the differences were considerable.
+
+CORRECT ANSWER: D
+
+EXPLANATION:
+- Correct (D): This is the answer. They couldn't tell the difference between coffees, even when they hadn't eaten chocolate. Must be that they can't taste coffee for some other reason. This shows the effect without the cause.
+- Wrong (A): Random assignment actually strengthens the argument. It means it's less likely there was some other difference between the groups.
+- Wrong (B): Replicating results in a bigger study strengthens the argument; it doesn't address causation.
+- Wrong (C): Solid versus liquid is irrelevant. The point is that the chocolate-eaters couldn't taste coffee differences.
+- Wrong (E): Whether the differences were subtle or large, the coffee-only group still detected differences. That's the whole point.
+
+SUMMARY:
+Some people got coffee and chocolate, others just coffee. The ones who just got coffee could tell different coffees apart, whereas the chocolate group thought they all tasted the same. The conclusion is that chocolate messes up your ability to taste coffee.
+
+ANTICIPATION:
+The argument claims chocolate caused the inability to taste differences. But what if those people just couldn't taste anything to begin with? Expect the answer to undermine the causal link between chocolate and the tasting failure.`,
+
+    `QUESTION B17
+Type: Weakener
+Difficulty: Hard
+Domain: Environmental science / ecology
+
+A positive correlation has been found between the amount of soot in the atmosphere of cities and the frequency of a certain ailment among those cities' populations. However, the soot itself probably does not cause this ailment, since in cities where there are large amounts of soot in the air, there are usually also high concentrations of many other air pollutants.
+
+Which one of the following statements, if true, most weakens the argument?
+
+(A) In cities where there are high concentrations of many air pollutants but little if any soot in the air, the frequency of the ailment is just as high, on average, as it is in cities where there are large amounts of soot in the air.
+(B) If the ailment rarely occurs except in cities in which there are large amounts of soot in the air, then the soot is probably the cause of the ailment.
+(C) In each of the cities where there are large amounts of soot in the air but little other air pollution, the frequency of the ailment is at least as high as it is anywhere else.
+(D) If high concentrations of many different pollutants in a city's air are correlated with a high frequency of the ailment among that city's population, then it is possible that two or more of those pollutants each causally contributes to the ailment.
+(E) In cities in which there are high concentrations of many air pollutants, there are generally also high concentrations of other forms of pollution that are very likely to contribute causally to the ailment.
+
+CORRECT ANSWER: C
+
+EXPLANATION:
+- Correct (C): This is the one. Where there's soot but not the other air pollution, people get the disease anyway. This gives us the effect without the purported cause — not looking good for the argument's claim that other pollutants are responsible.
+- Wrong (A): This strengthens the argument. It makes it look more likely that the other pollutants, not the soot, cause the disease.
+- Wrong (B): We know the disease correlates with soot, but we don't know that it rarely occurs except where there's tons of soot.
+- Wrong (D): This doesn't tell us anything unless we know whether soot is one of the contributing pollutants.
+- Wrong (E): This strengthens the argument by identifying yet more factors other than soot that contribute to the ailment.
+
+SUMMARY:
+In cities with lots of soot in the air, lots of people get some particular disease. But the author thinks the soot probably doesn't cause it, because where there's soot there's also generally lots of other air pollution. Must be those other pollutants.
+
+ANTICIPATION:
+The disease correlates with soot, but soot also correlates with other air pollution. Expect the answer to separate them — show that when there's soot but not the other pollution, people still get the disease. That's the effect without the alternative cause.`
   ],
 
   "Sufficient Assumption": [
@@ -527,7 +919,37 @@ SUMMARY:
 The chairperson released the report without consulting anyone. That was wrong. The argument needs an assumption that makes failing to consult sufficient reason to conclude the release was impermissible.
 
 ANTICIPATION:
-The premise is: no consultation occurred. The conclusion is: the chairperson should not have released the report. The assumption must connect these by saying consultation was required. Look for an answer that says the release was only permissible if others were consulted or gave consent.`
+The premise is: no consultation occurred. The conclusion is: the chairperson should not have released the report. The assumption must connect these by saying consultation was required. Look for an answer that says the release was only permissible if others were consulted or gave consent.`,
+
+    `QUESTION B24
+Type: Sufficient Assumption
+Difficulty: Hard
+Domain: Political science
+
+Clearly, a democracy cannot thrive without effective news media. After all, a democracy cannot thrive without an electorate that is knowledgeable about important political issues, and an electorate can be knowledgeable in this way only if it has access to unbiased information about the government.
+
+The argument's conclusion is properly inferred if which one of the following is assumed?
+
+(A) All societies that have effective news media are thriving democracies.
+(B) If an electorate has access to unbiased information about the government, then that electorate will be knowledgeable about important political issues.
+(C) A democracy will thrive if its electorate is knowledgeable about important political issues.
+(D) A democracy cannot thrive if the electorate is exposed to biased information about the government.
+(E) Without effective news media, an electorate will not have access to unbiased information about the government.
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): Exactly what we expected. Take the contrapositive of the second premise: if there's no access to unbiased information, the electorate isn't knowledgeable. Combined with the first premise: if not knowledgeable, democracy doesn't thrive. Add E: no effective news media means no access to unbiased information. Chain them together: no news media → no unbiased info → not knowledgeable → democracy doesn't thrive.
+- Wrong (A): This is the inverse of the conclusion. That doesn't help us infer the conclusion.
+- Wrong (B): This is the converse of one of the premises. It doesn't tell us anything about the role of the news media.
+- Wrong (C): This is the inverse of one of the premises. The conclusion talks about the news media — any sufficient assumption must mention the news media.
+- Wrong (D): The argument claims access to unbiased information is necessary. It doesn't matter if there's also biased information floating around. This answer also doesn't mention the news media.
+
+SUMMARY:
+Diagram it out. If the electorate isn't knowledgeable, democracy won't thrive. If the electorate is to be knowledgeable, it needs access to unbiased information. The conclusion: without effective news media, a democracy won't thrive. We need to connect "no news media" to "no unbiased information."
+
+ANTICIPATION:
+Take the contrapositive of the second premise: if there's no unbiased information access, the electorate isn't knowledgeable. That combines with the first premise transitively. To complete the chain to the conclusion, we need: no effective news media → no access to unbiased information. That's exactly what the correct answer says.`
   ],
 
   "Structural Analysis": [
@@ -589,7 +1011,127 @@ SUMMARY:
 The Pritzker Prize rewards individual architects, like Nobel Prizes reward scientists. But buildings are team efforts, like movies. Since movies get best-picture awards rather than best-director awards, architecture prizes should reward buildings, not architects.
 
 ANTICIPATION:
-This argument makes its case through analogy — specifically by saying buildings are like movies (not like scientific discoveries). The correct answer will describe that analogical reasoning across fields.`
+This argument makes its case through analogy — specifically by saying buildings are like movies (not like scientific discoveries). The correct answer will describe that analogical reasoning across fields.`,
+
+    `QUESTION B4
+Type: Structural Analysis
+Difficulty: Easy
+Domain: Psychology and behavior
+
+Psychologist: Some have argued that Freudian psychotherapy is the most effective kind because it is so difficult and time consuming. But surely this does not follow. Similar reasoning — e.g., concluding that a car-repair chain has the most effective technique for repairing cars because the cars it services receive so much work and spend so much time in the shop — would never be accepted.
+
+The reasoning technique employed by the psychologist is that of attempting to undermine an argument by
+
+(A) introducing a principle that contradicts the one on which the argument is based.
+(B) questioning the truth of its premises.
+(C) presenting an analogous argument whose conclusion is thought to be obviously false.
+(D) claiming that the argument is based on a false analogy.
+(E) suggesting that a supposed cause of a phenomenon is actually an effect of that phenomenon.
+
+CORRECT ANSWER: C
+
+EXPLANATION:
+- Correct (C): The whole thing about car repair is an analogy. The psychologist presents a parallel argument — same structure, obviously absurd conclusion — to show the original reasoning is flawed.
+- Wrong (A): The author doesn't mention any principle or general rule.
+- Wrong (B): The author doesn't deny that Freudian psychotherapy really is difficult and time-consuming. Those are the opposing argument's premises, and they're accepted.
+- Wrong (D): The author is the one providing an analogy. The argument being attacked doesn't contain any analogy.
+- Wrong (E): There's no cause and effect relationship being discussed here.
+
+SUMMARY:
+Some people think Freudian therapy is the best because it takes a long time. But if you took the same logic to car repair — the shop that takes the longest must be the best — you'd reject it immediately. So the reasoning about Freudian therapy is no good.
+
+ANTICIPATION:
+Car repair is an analogy. The author uses that analogy to challenge the reasoning in the argument that Freudian psychotherapy is so good because it's time-consuming.`,
+
+    `QUESTION B5
+Type: Structural Analysis
+Difficulty: Easy
+Domain: Environmental science / ecology
+
+While biodiversity is indispensable to the survival of life on Earth, biodiversity does not require the survival of every currently existing species. For there to be life on Earth, various ecological niches must be filled; many niches, however, can be filled by more than one species.
+
+Which one of the following statements most accurately expresses the conclusion drawn in the argument?
+
+(A) Biodiversity does not require that all existing species continue to exist.
+(B) There are various ecological niches that must be filled if there is to be life on Earth.
+(C) The survival of life on Earth depends upon biodiversity.
+(D) There are many ecological niches that can be filled by more than one species.
+(E) The species most indispensable for biodiversity fill more than one ecological niche.
+
+CORRECT ANSWER: A
+
+EXPLANATION:
+- Correct (A): That's the conclusion, all right. Everything else in the argument is support for this claim.
+- Wrong (B): This is a premise — one of the reasons why biodiversity doesn't require every species to survive.
+- Wrong (C): This is another premise — the opening claim that biodiversity is indispensable to life.
+- Wrong (D): This is evidence — the reason why not every species is necessary to fill all niches.
+- Wrong (E): This isn't stated or implied anywhere in the argument.
+
+SUMMARY:
+If there's going to be life on earth, species have to fulfill certain roles in the ecosystem. But some of those roles can be fulfilled by more than one species. So even though biodiversity is really important, it doesn't mean that every species has to survive.
+
+ANTICIPATION:
+The conclusion is that biodiversity doesn't require that every single species survive. We know that because the premise about filling niches is there to support that claim, not to be the main point itself.`,
+
+    `QUESTION B9
+Type: Structural Analysis
+Difficulty: Medium
+Domain: History and social science
+
+Fraenger's assertion that the artist Hieronymus Bosch belonged to the Brethren of the Free Spirit, a nonmainstream religious group, is unlikely to be correct. Fraenger's hypothesis explains much of Bosch's unusual subject matter. However, there is evidence that Bosch was a member of a mainstream church, and no evidence that he was a member of the Brethren.
+
+The statement that there is no evidence that Bosch was a member of the Brethren figures in the argument in which one of the following ways?
+
+(A) It is a premise that, when combined with the other premises, guarantees the falsity of Fraenger's assertion.
+(B) It is used to support the claim that Bosch was a member of a mainstream church.
+(C) It is used to dispute Fraenger's hypothesis by questioning Fraenger's credibility.
+(D) It is intended to cast doubt on Fraenger's hypothesis by questioning the sufficiency of Fraenger's evidence.
+(E) It is intended to help show that Bosch's choice of subject matter remains unexplained.
+
+CORRECT ANSWER: D
+
+EXPLANATION:
+- Correct (D): It's an attack on Fraenger, and the attack is that there's no evidence for what Fraenger says. It questions whether Fraenger's evidence is sufficient to support the hypothesis.
+- Wrong (A): This is tempting, but the author never says Fraenger is guaranteed to be false. The author just thinks it's unlikely to be correct.
+- Wrong (B): Bosch's mainstream church membership is a separate premise. It isn't supported by the no-evidence claim.
+- Wrong (C): There's no attack on Fraenger's credibility — just on the evidence for his claim.
+- Wrong (E): The author never claims there's no way to explain Bosch's subject matter. Other explanations might exist.
+
+SUMMARY:
+Fraenger thinks Bosch was in a cult. Even though that would explain some of the crazy things Bosch painted, it's probably not true. There's evidence Bosch was in a normal church, and no evidence he was in that cult.
+
+ANTICIPATION:
+The statement in question is a premise in the author's argument. It's a direct attack on Fraenger — it says there's no evidence for Fraenger's claim, which weakens the hypothesis.`,
+
+    `QUESTION B11
+Type: Structural Analysis
+Difficulty: Medium
+Domain: Economics and public policy
+
+Manager: This company's supply chain will develop significant weaknesses unless we make changes to our vendor contracts now. Some will argue that this problem is so far in the future that there is no need to address it today. But that is an irresponsible approach. Just imagine if a financial planner offered the same counsel to a 30-year-old client: "Don't worry, Jane, retirement is 35 years away; you don't need to save anything now." That planner would be guilty of gross malpractice.
+
+Which one of the following most accurately expresses the overall conclusion drawn in the manager's argument?
+
+(A) Some people argue that the supply-chain problem is so far in the future that there is no need to address it now.
+(B) It would be irresponsible to postpone changes to the vendor contracts just because the supply chain will not develop weaknesses for a long time.
+(C) If no changes are made to the vendor contracts, the supply chain will eventually develop significant weaknesses.
+(D) In planning to meet its future obligations, a company should follow the same practices that are appropriate for an individual who is planning for retirement.
+(E) Financial planners should advise their clients to save money for retirement only if retirement is many years away.
+
+CORRECT ANSWER: B
+
+EXPLANATION:
+- Correct (B): This is the answer — it's a perfect match to the argument's conclusion, spelling out what "that would be irresponsible" means.
+- Wrong (A): This is true, but it's not the author's view. The author thinks we shouldn't wait.
+- Wrong (C): This is a premise — a reason we shouldn't procrastinate, not the main point.
+- Wrong (D): The analogy to financial planning is a rhetorical device, not the conclusion itself.
+- Wrong (E): This answer would mean you shouldn't save if retirement is close. The financial planning bit is just an analogy anyway.
+
+SUMMARY:
+If we don't change things now, we'll have supply chain problems in the future. It'll be tempting to procrastinate since the problem is far off. But that would be irresponsible — like a financial planner telling a 30-year-old not to save for retirement.
+
+ANTICIPATION:
+The conclusion is "that would be an irresponsible approach" — that's what the analogy is there to support. Paraphrase: it would be irresponsible to procrastinate making changes to our vendor contracts. Expect the answer to say something like that.`
   ],
 
   "Inference": [
@@ -681,7 +1223,157 @@ SUMMARY:
 The student needs a book to cite a quotation. No book means no citation. No citation means no quotation. Without the quotation, the paper is worse. Chain these together for the conclusion.
 
 ANTICIPATION:
-Follow the chain of conditionals to its logical end: if the book is not found, the paper will be worse. The answer should state exactly this — neither more dramatically (paper cannot be finished) nor differently (using the quotation without a citation).`
+Follow the chain of conditionals to its logical end: if the book is not found, the paper will be worse. The answer should state exactly this — neither more dramatically (paper cannot be finished) nor differently (using the quotation without a citation).`,
+
+    `QUESTION B6
+Type: Inference
+Difficulty: Easy
+Domain: Biology / medicine
+
+Clinician: Patients with immune system disorders are usually treated with a class of drugs that, unfortunately, increase the patient's risk of developing osteoporosis, a bone-loss disease. So these patients take another drug that helps to preserve existing bone. Since a drug that enhances the growth of new bone cells has now become available, these patients should take this new drug in addition to the drug that helps to preserve existing bone.
+
+Which one of the following would be most useful to know in order to evaluate the clinician's argument?
+
+(A) How large is the class of drugs that increase the risk of developing osteoporosis?
+(B) Why are immune system disorders treated with drugs that increase the risk of developing osteoporosis?
+(C) Is the new drug more expensive than the drug that helps to preserve existing bone?
+(D) How long has the drug that helps to preserve existing bone been in use?
+(E) To what extent does the new drug retain its efficacy when used in combination with the other drugs?
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): This is what we need to know. If the new drug caused bad drug interactions and didn't work in combination with the other drugs, that would be bad for the argument. If it works fine with the others, the conclusion sounds like a good plan.
+- Wrong (A): It doesn't matter how many drugs in that class there are. We're concerned with how to protect people's bones.
+- Wrong (B): We're not concerned with why people get these drugs. We're concerned with how to protect their bones when they do.
+- Wrong (C): Cost doesn't figure into the argument at all.
+- Wrong (D): It doesn't matter how long they've been using the existing drug. The only relevant issue is whether adding the new drug will help.
+
+SUMMARY:
+Some drugs that people get for immune disorders have a bad side effect — they hurt the bones. So doctors also give a bone-preserving drug. There's a new drug that actually grows new bone cells, so they should take that drug too.
+
+ANTICIPATION:
+This all sounds reasonable, but there might be problems the stimulus didn't address. Maybe the drugs interact badly. Expect the answer to address whether there's some problem with taking all the drugs together.`,
+
+    `QUESTION B8
+Type: Inference
+Difficulty: Medium
+Domain: Environmental science / ecology
+
+Fluoride enters a region's groundwater when rain dissolves fluoride-bearing minerals in the soil. In a recent study, researchers found that when rainfall, concentrations of fluoride-bearing minerals, and other relevant variables are held constant, fluoride concentrations in groundwater are significantly higher in areas where the groundwater also contains a high concentration of sodium.
+
+Which one of the following can most reasonably be concluded on the basis of the researchers' findings?
+
+(A) Fluoride-bearing minerals are not the primary source of fluoride found in groundwater.
+(B) Rainfall does not affect fluoride concentrations in groundwater.
+(C) Sodium-bearing minerals dissolve at a faster rate than fluoride-bearing minerals.
+(D) Sodium in groundwater increases the rate at which fluoride-bearing minerals dissolve.
+(E) Soil that contains high concentrations of sodium-bearing minerals also contains high concentrations of fluoride-bearing minerals.
+
+CORRECT ANSWER: D
+
+EXPLANATION:
+- Correct (D): This is it. More sodium means more fluoride, and that fluoride comes from minerals. So sodium must help those minerals dissolve. Connect the facts.
+- Wrong (A): Nothing in the stimulus indicates there are other sources of fluoride.
+- Wrong (B): Rainfall was one of the variables held constant — that doesn't mean it has no effect when it varies.
+- Wrong (C): We don't know anything about how sodium dissolves, or even where the sodium in the groundwater comes from.
+- Wrong (E): We don't know anything about sodium-bearing minerals. Also, fluoride-bearing mineral concentrations were held constant in the study.
+
+SUMMARY:
+When rain comes, it dissolves fluoride-bearing minerals in the soil and fluoride ends up in the groundwater. When there's more sodium in the groundwater, there's more fluoride — even when other variables are held constant.
+
+ANTICIPATION:
+Connect the facts. More sodium means more fluoride, when all other factors are held constant. Fluoride comes from minerals that dissolve in the rain. So sodium must help dissolve those fluoride-bearing minerals. Expect the answer to say exactly that.`,
+
+    `QUESTION B12
+Type: Inference
+Difficulty: Medium
+Domain: Economics and public policy
+
+Worldwide, more books were sold last year than in any previous year. In particular, there were more cookbooks sold. For the first time ever, most of the cookbooks sold were not intended for beginners. Indeed, more cookbooks than ever were purchased by professional cooks. However, one of the few books available on every continent is a cookbook written for beginners, entitled Problem-Free Cooking.
+
+Which one of the following is most strongly supported by the information above?
+
+(A) Last year there were more cookbooks sold that were not intended for beginners than in any previous year.
+(B) The best-selling cookbook last year was a cookbook that was intended for beginners.
+(C) Sales of cookbooks intended for beginners were lower last year than in previous years.
+(D) Most of the cookbooks purchased last year that were not intended for beginners were purchased by professional cooks.
+(E) Problem-Free Cooking sold more copies last year than did any cookbook written for professional cooks.
+
+CORRECT ANSWER: A
+
+EXPLANATION:
+- Correct (A): There were more cookbooks sold than ever before. For the first time, a majority weren't for beginners. That means there were more non-beginner cookbooks sold than ever before. This is the answer.
+- Wrong (B): We don't know what the best-selling cookbook was. We just know one was available everywhere.
+- Wrong (C): A lower percentage of cookbooks sold were for beginners, but since total cookbook sales were the highest ever, the raw number of beginner cookbooks wasn't necessarily low.
+- Wrong (D): We know professional cooks bought more cookbooks than ever. But that doesn't mean they bought a majority of the non-beginner ones.
+- Wrong (E): We don't know how many copies Problem-Free Cooking sold. All we know is that it was available on all continents.
+
+SUMMARY:
+New record for books sold, and for cookbooks sold. And whereas in the past, most cookbooks sold were for beginners, last year most weren't. There was one beginner cookbook that was widely available worldwide.
+
+ANTICIPATION:
+Don't overthink the anecdote about the beginner cookbook at the end. Focus on the big facts. More cookbooks sold last year, and for the first time a majority weren't for beginners. That means there were more non-beginner cookbooks sold than ever. That's a pretty likely answer.`,
+
+    `QUESTION B16
+Type: Inference
+Difficulty: Hard
+Domain: Biology / medicine
+
+Stress is a common cause of high blood pressure. By calming their minds and thereby reducing stress, some people can lower their blood pressure. And most people can calm their minds, in turn, by engaging in exercise.
+
+Which one of the following is most strongly supported by the information above?
+
+(A) For at least some people, having lower blood pressure has at least some tendency to cause their stress levels to be reduced.
+(B) Most people with high blood pressure can lower their blood pressure by reducing their stress levels.
+(C) Most people who do not exercise regularly have higher stress levels as a result.
+(D) Engaging in exercise can directly lower one's blood pressure.
+(E) For at least some people, engaging in exercise can cause their stress levels to be reduced.
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): This is the answer. Exercising clears the mind for most people, and clearing the mind reduces stress. Connect the dots and you get there.
+- Wrong (A): We know that lowering stress can lower your blood pressure. We don't know whether it works the other way around.
+- Wrong (B): We know it works for some people. "Most" is just too strong.
+- Wrong (C): This goes way too far. Exercising might help reduce stress for some people, but that doesn't mean people who don't exercise are generally all stressed out.
+- Wrong (D): From what we know, exercise might indirectly lower blood pressure by reducing stress. "Directly" is too strong.
+
+SUMMARY:
+Stress makes your blood boil — seriously, it often causes high blood pressure. Some people lower their blood pressure by calming their minds, which reduces stress. For most people, exercise calms the mind.
+
+ANTICIPATION:
+Connect the dots. Most people can calm their minds by exercising, and calming your mind reduces stress. So exercise can reduce stress for at least some people. We can't connect this all the way to blood pressure, since we only know that "some" people lower their blood pressure by reducing stress.`,
+
+    `QUESTION B21
+Type: Inference
+Difficulty: Hard
+Domain: Philosophy and ethics
+
+The only songs Amanda has ever written are blues songs and punk rock songs. Most punk rock songs involve no more than three chords. So if the next song Amanda writes is not a blues song, it probably will not involve more than three chords.
+
+The reasoning in which one of the following arguments is most similar to that in the argument above?
+
+(A) The only pets the Gupta family has ever owned are fish and parrots. Most parrots are very noisy. So if the next pet the Gupta family owns is a parrot, it will probably be very noisy.
+(B) Most parrots are very noisy. The Gupta family has never owned any pets other than fish and parrots. So if the next pet the Gupta family owns is not a parrot, it will probably not be very noisy.
+(C) The Gupta family has owned only fish and parrots as pets. Most parrots are very noisy. So the next pet the Gupta family owns will probably be very noisy.
+(D) The only pets the Gupta family has ever owned are fish and parrots. Most of the family's parrots have been very noisy. So if the next pet the family owns is a parrot, it will probably be very noisy.
+(E) The Gupta family has never owned any pets other than fish and parrots, and most of their parrots have been very noisy. So if the next pet they own is not a fish, it will probably be very noisy.
+
+CORRECT ANSWER: E
+
+EXPLANATION:
+- Correct (E): This matches the flaw. Amanda only writes blues or punk. Most punk has three chords or fewer. If the next one isn't blues, it's probably punk, so it probably has three chords or fewer. Answer E: the Guptas only have fish or parrots. Most of their parrots have been noisy. If the next pet isn't a fish, it's probably a parrot, so it's probably noisy.
+- Wrong (A): This is valid. If the next pet is a parrot, then it'll probably be noisy. No flaw there.
+- Wrong (B): If the next pet isn't a parrot, it's a fish. Fish aren't noisy. This is valid too — different structure.
+- Wrong (C): We don't know that the next pet will be a parrot. This says it will "probably be very noisy" without establishing it's likely a parrot.
+- Wrong (D): This is valid — if the next pet is a parrot, and most of their parrots have been noisy, it'll probably be noisy.
+
+SUMMARY:
+Amanda only writes blues or punk. Most punk has three chords max. If the next song isn't blues, it's probably punk, so it probably has three chords or fewer. The flaw: what if it's blues? We're assuming it must be punk.
+
+ANTICIPATION:
+The argument assumes that if it's not blues, it must be punk — which is valid since those are the only two types. Then it concludes that since most punk has three chords, the next non-blues song probably will too. Look for the same pattern: only two options, most of one type share a property, if it's not the other type it probably has that property.`
   ]
 
 };
