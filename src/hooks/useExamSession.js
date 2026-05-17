@@ -130,6 +130,7 @@ export default function useExamSession() {
       if (results.includes(false)) return; // error state was set inside streamQuestion
     }
 
+    setQuestions(prev => [...prev].sort((a, b) => a.questionNumber - b.questionNumber));
     setPhase('exam');
   }, []);
 

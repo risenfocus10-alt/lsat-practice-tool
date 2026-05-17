@@ -37,9 +37,16 @@ export default function parseQuestionResponse(rawText) {
   if (domainLineMatch && aIndex !== -1) {
     const domainEnd = text.indexOf(domainLineMatch[0]) + domainLineMatch[0].length;
     const body = text.slice(domainEnd, aIndex).trim();
-    const paragraphs = body.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
-    stem = paragraphs.pop() || '';
-    stimulus = paragraphs.join('\n\n');
+    const lines = body.split('\n').map(l => l.trim()).filter(Boolean);
+    const stemIndex = lines.findLastIndex(l => l.endsWith('?'));
+    if (stemIndex !== -1) {
+      stem = lines[stemIndex];
+      stimulus = lines.slice(0, stemIndex).join(' ');
+    } else {
+      // Fallback: last non-empty line is the stem
+      stem = lines.pop() || '';
+      stimulus = lines.join(' ');
+    }
   }
 
   const skeletonStart = text.indexOf('LOGICAL SKELETON:');
