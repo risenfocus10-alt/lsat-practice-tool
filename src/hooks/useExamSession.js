@@ -77,6 +77,7 @@ async function streamQuestion(planItem, isRetry, setQuestions, setError) {
     }
 
     const parsed = parseQuestionResponse(rawText);
+    parsed.questionNumber = planItem.questionNumber;
     setQuestions(prev =>
       prev.map(q =>
         q.questionNumber === planItem.questionNumber

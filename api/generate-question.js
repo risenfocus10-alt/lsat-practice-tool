@@ -129,7 +129,7 @@ LOGICAL SKELETON:
 - Mechanism: [one sentence describing exactly how the reasoning error or inference works]
 - Wrong answer traps: (A) [specific cognitive bias or error this choice exploits] (B) [trap] (C) [trap] (D) [trap] (E) [trap]
 
-QUESTION [NUMBER]
+QUESTION
 Type: [Question Type]
 Difficulty: [Easy / Medium / Hard]
 Domain: [Subject Domain]
@@ -181,7 +181,7 @@ module.exports = async function handler(req, res) {
 
   const { questionNumber, questionType, difficulty, domain } = req.body;
 
-  const userMessage = `Generate question ${questionNumber} of 26.\nType: ${questionType}\nDifficulty: ${difficulty}\nDomain: ${domain}`;
+  const userMessage = `Generate one question.\nType: ${questionType}\nDifficulty: ${difficulty}\nDomain: ${domain}`;
 
   const recentQuestions = await prisma.generatedQuestion.findMany({
     where: { questionType },
